@@ -8,12 +8,10 @@ name: CI
 
         runs-on: ubuntu-latest
 
-        environment: bonjour
-
         steps:
 
         - uses: actions/checkout@v2
 
         - name: Run a one-line script
 
-          run: echo ${{ vars.MY_VAR }}
+          run: echo ${{ vars.VAR1 }}
