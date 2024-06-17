@@ -14,4 +14,4 @@ name: CI
 
         - name: Run a one-line script
 
-          run: echo ${{ vars.VAR1 }}
+          run: echo ${{ vars.VAR1 }} 
